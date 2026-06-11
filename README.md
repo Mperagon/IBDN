@@ -120,7 +120,11 @@ CREATE TABLE IF NOT EXISTS flight_predictions (
 ```
 
 ### Paso 3 — Importar distancias entre aeropuertos
+Como flask puede que no esté iniciado correctamente
 
+```bash
+docker start flask
+```
 Si el fichero no existe dentro del contenedor Flask, cópialo primero:
 
 ```bash
